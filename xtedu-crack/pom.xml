@@ -2,16 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>dijiupu-github</artifactId>
+        <groupId>com.dijiupu</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.dijiupu</groupId>
-    <artifactId>dijiupu-github</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>dijiupu-test</module>
-        <module>xtedu-crack</module>
-    </modules>
-    <packaging>pom</packaging>
+    <artifactId>xtedu-crack</artifactId>
 
 
 </project>
